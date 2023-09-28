@@ -55,10 +55,10 @@ def agregar_botones(gui):
                           command=lambda: apretar(6), height=2, width=4)
     bot4.grid(row=6, column=0)
     bot5 = tkinter.Button(gui, text='5', fg='purple', bg='gray',
-                          command=lambda: apretar(5), height=2, width=4)
+                          command=lambda: apretar(6), height=2, width=4)
     bot5.grid(row=6, column=1)
-    bot6 = tkinter.Button(gui, text='5', fg='purple', bg='gray',
-                          command=lambda: apretar(5), height=2, width=4)
+    bot6 = tkinter.Button(gui, text='6', fg='purple', bg='gray',
+                          command=lambda: apretar(6), height=2, width=4)
     bot6.grid(row=6, column=2)
     bot_men = tkinter.Button(gui, text=' - ', fg='purple', bg='gray',
                              command=lambda: apretar(6), height=2, width=4)
